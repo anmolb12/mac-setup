@@ -16,3 +16,11 @@ read -p "Enter your Git name: " gitname
 read -p "Enter your Git email: " gitemail
 git config --global user.name "$gitname"
 git config --global user.email "$gitemail"
+
+echo "🔧 Installing Python..."
+pyenv install 3.13
+pyenv global 3.13
+
+pipx ensurepath
+
+source ~/.zshrc

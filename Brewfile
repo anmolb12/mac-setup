@@ -1,3 +1,6 @@
+brew "readline"
+brew "xz"
+brew "pipx"
 brew "pyenv"
 cask "cursor"
 cask "notion"
